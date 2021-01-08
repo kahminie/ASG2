@@ -1,0 +1,36 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+h2{
+  color:#ffcee9e7;
+  text-align:centre;
+}
+
+.navbar {
+  width: 100%;
+  background-color: rgb(193, 246, 255);
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: rgb(255, 196, 219);
+}
+
+.active {
+  background-color: rgb(247, 207, 255);
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
