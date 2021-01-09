@@ -1,6 +1,10 @@
 body {font-family: Arial, Helvetica, sans-serif;
   background-color:lightpink}
-
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
 
 h2{
   color:white;
